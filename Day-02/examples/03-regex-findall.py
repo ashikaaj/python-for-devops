@@ -5,6 +5,6 @@ pattern = r"brown"
 
 search = re.findall(pattern, text)
 if search:
-    print("Pattern found:", search.group())
+    print("Pattern found:", search)
 else:
     print("Pattern not found")
